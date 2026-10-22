@@ -4177,4 +4177,15 @@
 
     <string name="xbox_choose_pc_content">اختر محتوى الحاسوب</string>
 
+
+    <string name="mode_steam_title">جلسة Steam</string>
+    <string name="theme_gradient">تدرج لوني</string>
+    <string name="theme_gradient_detail">لونك الأساسي والثانوي، ممزوجان على الأزرار وعناصر التمييز.</string>
+    <string name="theme_gradient_primary">الأساسي</string>
+    <string name="theme_gradient_secondary">الثانوي</string>
+    <string name="theme_color_hue">درجة اللون</string>
+    <string name="theme_color_saturation">التشبع</string>
+    <string name="theme_color_brightness">السطوع</string>
+    <string name="theme_color_hex">لون سداسي (Hex)</string>
+    <string name="glasses_pro2_experimental">تتبّع تجريبي لحركة الرأس لنظارة Pro 2. لا يُدعم بعد ضبط السطوع ومستوى الصوت أو تبديل وضع العرض.</string>
 </resources>
