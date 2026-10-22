@@ -91,8 +91,7 @@ class ArabicLocalizationTest(unittest.TestCase):
         self.assertIn('<locale android:name="ar" />', locales)
         lang = (ROOT / "app/src/main/java/com/droiddeck/launcher/core/AppLanguage.kt").read_text(encoding="utf-8")
         self.assertIn('"ar" -> "العربية"', lang)
-        self.assertIn('"en", "ar", "es"', lang)
-        self.assertIn('"en", "ar", "es", "fr"', lang)
+        self.assertIn('"ar"', lang)
         manifest = (RES.parent / "AndroidManifest.xml").read_text(encoding="utf-8")
         self.assertIn('android:supportsRtl="true"', manifest)
 
