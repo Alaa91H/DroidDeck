@@ -1903,6 +1903,8 @@
     <string name="pip_auto">الدخول التلقائي إلى وضع صورة داخل صورة</string>
     <string name="unfolded_controls">أدوات التحكم على الشاشة المفتوحة</string>
     <string name="unfolded_controls_hint">عند فتح الجهاز تظهر اللعبة فوق لوحات لمس Steam Deck ومقابضه الخلفية. وعند طيه تملأ اللعبة الشاشة.</string>
+    <string name="unfolded_controls_with_controller">إبقاؤها ظاهرة عند استخدام وحدة تحكم</string>
+    <string name="unfolded_controls_with_controller_hint">اعرض أدوات التحكم الخاصة بالشاشة المفتوحة أيضًا أثناء اتصال وحدة تحكم تمسك الهاتف.</string>
     <string name="pip_suspended">معلّق</string>
     <string name="pip_not_ready">يتوفر وضع صورة داخل صورة عندما تصبح الجلسة جاهزة.</string>
     <string name="pip_permission">اسمح بوضع صورة داخل صورة لـ DroidDeck من إعدادات Android.</string>
@@ -3740,11 +3742,11 @@
 
     <string name="spatial_lite_hint">استخدم كاشف راحة اليد Lite ونقاط مفتاح Lite الموجودة على اليدين. تحقق من دقة التصويب والقرص والاستيلاء. إعادة التعيين عند إعادة تشغيل التتبع.</string>
 
-    <string name="spatial_adaptive">تردد الإدخال التلقائي لتتبع العقارب</string>
+    <string name="spatial_adaptive">تردد الإدخال التلقائي لتتبع اليدين</string>
 
     <string name="spatial_adaptive_hint">اضبط الإدخال حسب سرعة المعالجة. إعادة التعيين عند إعادة تشغيل التتبع.</string>
 
-    <string name="spatial_half_rate">الحد من تردد الإدخال لتتبع العقارب</string>
+    <string name="spatial_half_rate">الحد من تردد الإدخال لتتبع اليدين</string>
 
     <string name="spatial_half_rate_hint">استخدم نصف صور الكاميرا. قم بإيقاف التشغيل لمقارنة الحد الأقصى للتردد. إعادة التعيين عند إعادة تشغيل التتبع.</string>
 
@@ -4178,7 +4180,6 @@
     <string name="xbox_choose_pc_content">اختر محتوى الحاسوب</string>
 
 
-    <string name="mode_steam_title">جلسة Steam</string>
     <string name="theme_gradient">تدرج لوني</string>
     <string name="theme_gradient_detail">لونك الأساسي والثانوي، ممزوجان على الأزرار وعناصر التمييز.</string>
     <string name="theme_gradient_primary">الأساسي</string>

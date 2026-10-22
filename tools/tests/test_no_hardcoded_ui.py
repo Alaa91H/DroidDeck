@@ -11,7 +11,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[2] / "app/src/main/java"
 DIRECT_TEXT = re.compile(
-    r'\b(?:Text|BasicText|drawText)\s*\(\s*"((?:[^"\\]|\\.)*)"'
+    r'\b(?:Text|BasicText|drawText)\s*\(\s*(?:text\s*=\s*)?"((?:[^"\\]|\\.)*)"'
 )
 DIRECT_DESCRIPTION = re.compile(
     r'\bcontentDescription\s*=\s*"((?:[^"\\]|\\.)*)"'
@@ -20,6 +20,9 @@ ENGLISH_WORD = re.compile(r"[A-Za-z]{3,}")
 
 
 class HardcodedUiLiteralTest(unittest.TestCase):
+    def test_named_text_parameter_is_scanned(self) -> None:
+        self.assertIsNotNone(DIRECT_TEXT.search('Text(text = "Retry")'))
+
     def test_no_english_literals_in_direct_ui_text(self) -> None:
         results = []
         for file in ROOT.rglob("*"):
