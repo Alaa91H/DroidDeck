@@ -3140,9 +3140,6 @@
     <string name="unfolded_controls_with_controller">إبقاؤها ظاهرة عند استخدام وحدة تحكم</string>
     <string name="unfolded_controls_with_controller_hint">اعرض أدوات التحكم الخاصة بالشاشة المفتوحة أيضًا أثناء اتصال وحدة تحكم تمسك الهاتف.</string>
     <string name="gstore_folder_on_volume">%1$s (%2$s)</string>
-    <string name="mode_zram">ضغط zRAM</string>
-    <string name="mode_zram_hint">أثناء تشغيل اللعبة يتم ضغط ذاكرة عميل Steam إلى zram في الجهاز، فتحصل اللعبة على ذاكرة RAM أكبر. يسري عند تشغيل Steam في المرة القادمة.</string>
-    <string name="mode_zram_unsupported">غير متاح: لا يحتوي هذا الجهاز على zram أو swap، أو أن النواة أقدم من 5.4.</string>
     <string name="decky_channel">قناة التحديثات</string>
     <string name="decky_channel_failed">تعذّر حفظ قناة تحديث Decky</string>
     <string name="decky_channel_hint">إصدارات Decky Loader التي يجب تثبيتها. يستخدم محدّث Decky قناته نفسها.</string>

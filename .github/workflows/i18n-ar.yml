@@ -48,4 +48,4 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
       - name: Compile resources and run unit tests without native packaging
-        run: ./gradlew -PskipRust=true :app:testDebugUnitTest --stacktrace
+        run: ./gradlew -PskipRust=true -PskipAddonPackValidation=true :app:testDebugUnitTest --stacktrace
